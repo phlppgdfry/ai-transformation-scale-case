@@ -6,6 +6,8 @@
 
 [![CI](https://github.com/phlppgdfry/ai-transformation-scale-case/actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
 
+**Live site:** [phlppgdfry.github.io/ai-transformation-scale-case](https://phlppgdfry.github.io/ai-transformation-scale-case/) · [growth map](https://phlppgdfry.github.io/ai-transformation-scale-case/growth-map/) · [pilot](https://phlppgdfry.github.io/ai-transformation-scale-case/pilot/) · [deck](https://phlppgdfry.github.io/ai-transformation-scale-case/deck/)
+
 ## The answer in one paragraph
 
 **Govern first, bet on fresh, prove it properly.** Maturity is <!--n:rd.overall-->2.3<!--/n--> of 5 and governance is the largest gap, so a fast-lane intake, a register and an orchestration layer come in the first three months. Of <!--n:inv.total-->37<!--/n--> initiatives, <!--n:inv.stop-->8<!--/n--> stop, <!--n:inv.merge-->4<!--/n--> merge and <!--n:inv.pause-->3<!--/n--> pause for an AI Act assessment. Ardena's AI advantage is in **fresh**: a third of sales and the reason customers come, and nobody else is investing there. The fresh markdown advisor ranks first under <!--n:pf.UC-01.top5-->93%<!--/n--> of random weightings, and in 12 matched store pairs it cut fresh waste by <!--n:pilot.effect-->0.88 pp<!--/n--> (<!--n:pilot.relative-->18%<!--/n-->). Getting it into 240 stores is gated on <!--n:prod.blockers-->5<!--/n--> open production gates, and none of them is about the model.
