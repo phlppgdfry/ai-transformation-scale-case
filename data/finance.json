@@ -1,0 +1,16 @@
+{
+ "comment": "Planning assumptions for the business case (docs/04-value). All fictional; each one is in the assumption register with an owner. markdown_net_capture: share of the avoided waste (at sales value) that ends up as margin after markdown discounts and cannibalisation.",
+ "discount_rate": 0.08,
+ "years": 3,
+ "ramp": [
+  0.25,
+  0.75,
+  1.0
+ ],
+ "squad_month_eur": 55000,
+ "adopt_month_eur": 18000,
+ "run_share_of_build": 0.15,
+ "licence_share_of_value_for_buy": 0.1,
+ "realisation_haircut": 0.3,
+ "markdown_net_capture": 0.2
+}

@@ -1,0 +1,42 @@
+[
+ {
+  "id": "F1",
+  "name": "Retail data platform",
+  "detail": "Sales, stock and waste at item-store-day, within 24 h, with owners and quality rules",
+  "months": 6,
+  "one_off_eur": 420000,
+  "run_eur": 160000
+ },
+ {
+  "id": "F2",
+  "name": "AI orchestration layer",
+  "detail": "Model gateway, approved model catalogue, tool registry, evaluation and monitoring, cost per initiative",
+  "months": 4,
+  "one_off_eur": 240000,
+  "run_eur": 120000
+ },
+ {
+  "id": "F3",
+  "name": "AI governance and policy",
+  "detail": "AI council, policy, intake, inventory, risk tiers, EU AI Act register",
+  "months": 3,
+  "one_off_eur": 90000,
+  "run_eur": 60000
+ },
+ {
+  "id": "F4",
+  "name": "Product master-data quality",
+  "detail": "Attribute completeness and ownership for 28,000 SKUs",
+  "months": 5,
+  "one_off_eur": 180000,
+  "run_eur": 50000
+ },
+ {
+  "id": "F5",
+  "name": "AI literacy and champions",
+  "detail": "Article 4 literacy for all users, 60 champions, product-owner training",
+  "months": 3,
+  "one_off_eur": 110000,
+  "run_eur": 70000
+ }
+]

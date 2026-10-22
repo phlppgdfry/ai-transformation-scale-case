@@ -1,0 +1,8 @@
+{
+ "comment": "Scoring weights agreed in workshop 3 with the executive committee. Robustness is tested by re-drawing them at random (aitx.portfolio.robustness).",
+ "value": 0.40,
+ "fit": 0.20,
+ "feasibility": 0.40,
+ "feasibility_parts": {"data": 0.40, "tech": 0.25, "org": 0.35},
+ "review_penalty": 0.5
+}

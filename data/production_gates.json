@@ -1,0 +1,18 @@
+{
+ "use_case": "UC-01",
+ "comment": "Pilot-to-production gates for the fresh markdown advisor, status at the end of the pilot (week 18). 'blocking' gates must be done before wave 1 (60 stores).",
+ "gates": [
+  {"id": "G01", "area": "Value", "gate": "Outcome KPI, baseline and pre-registered decision rules", "status": "done", "blocking": true, "owner": "Head of fresh"},
+  {"id": "G02", "area": "Data", "gate": "Automated daily feed of sales, stock and waste per item-store (replaces the pilot extract)", "status": "partial", "blocking": true, "owner": "Data platform lead (F1)"},
+  {"id": "G03", "area": "Model", "gate": "Monitoring of suggestion quality and acceptance per store, with alert thresholds", "status": "open", "blocking": true, "owner": "Product squad"},
+  {"id": "G04", "area": "Model", "gate": "Retraining and versioning procedure, with rollback to the previous model", "status": "open", "blocking": true, "owner": "Product squad"},
+  {"id": "G05", "area": "Operations", "gate": "Store procedure: who confirms markdowns, when, and how labels are printed", "status": "done", "blocking": true, "owner": "COO stores"},
+  {"id": "G06", "area": "Operations", "gate": "Support model: first line in stores, second line in IT, third line with the squad", "status": "partial", "blocking": true, "owner": "IT service manager"},
+  {"id": "G07", "area": "Security", "gate": "Security review of the service and its integrations", "status": "done", "blocking": true, "owner": "CISO"},
+  {"id": "G08", "area": "Compliance", "gate": "AI register entry; AI Act triage (minimal); DPIA screening (staff ids only)", "status": "done", "blocking": true, "owner": "AI governance office"},
+  {"id": "G09", "area": "People", "gate": "Training for store fresh teams (30 minutes) and AI literacy module", "status": "partial", "blocking": false, "owner": "HR learning"},
+  {"id": "G10", "area": "People", "gate": "Works council informed; store staff feedback loop in place", "status": "done", "blocking": true, "owner": "HR director"},
+  {"id": "G11", "area": "Cost", "gate": "Run cost per store per month known and inside the business case", "status": "done", "blocking": false, "owner": "Finance business partner"},
+  {"id": "G12", "area": "Ownership", "gate": "Named product owner and budget for year 1 in the business unit's plan", "status": "partial", "blocking": true, "owner": "Head of fresh"}
+ ]
+}

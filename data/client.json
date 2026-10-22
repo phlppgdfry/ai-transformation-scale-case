@@ -1,0 +1,31 @@
+{
+ "name": "Ardena Group",
+ "domain": "ardena.example",
+ "sector": "Grocery retail and distribution, Belgium",
+ "revenue_eur_m": 3600,
+ "ebit_margin": 0.028,
+ "employees": 11000,
+ "business_units": {
+  "stores": {
+   "label": "Stores",
+   "detail": "240 supermarkets",
+   "employees": 8200
+  },
+  "supply": {
+   "label": "Supply chain",
+   "detail": "3 distribution centres, own fleet",
+   "employees": 1600
+  },
+  "ecom": {
+   "label": "E-commerce",
+   "detail": "Home delivery and click & collect",
+   "employees": 450
+  },
+  "office": {
+   "label": "Head office",
+   "detail": "Finance, HR, marketing, IT, customer service",
+   "employees": 750
+  }
+ },
+ "fresh_sales_share": 0.34
+}

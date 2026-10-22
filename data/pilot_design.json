@@ -1,0 +1,28 @@
+{
+ "use_case": "UC-01",
+ "pairs": 12,
+ "baseline_weeks": 8,
+ "pilot_weeks": 10,
+ "criteria": {
+  "primary": {
+   "kpi": "waste_pct",
+   "direction": "down",
+   "min_effect_pp": 0.5,
+   "ci_lower_bound_pp": 0.2
+  },
+  "guardrails": [
+   {
+    "kpi": "fresh_margin_pct",
+    "max_worse_pp": 0.1
+   },
+   {
+    "kpi": "oos_pct",
+    "max_worse_pp": 0.3
+   }
+  ],
+  "adoption": {
+   "kpi": "suggestions_accepted_pct",
+   "min": 60.0
+  }
+ }
+}

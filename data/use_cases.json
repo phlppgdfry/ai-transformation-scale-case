@@ -1,0 +1,659 @@
+[
+ {
+  "id": "UC-01",
+  "name": "Fresh markdown advisor",
+  "bu": "stores",
+  "description": "Suggests markdowns on fresh items near expiry per store; staff confirm.",
+  "value_low": 1400000,
+  "value_high": 2600000,
+  "fit": 5,
+  "data": 3,
+  "tech": 4,
+  "org": 4,
+  "effort_months": 4,
+  "differentiation": "differentiating",
+  "sourcing": "build",
+  "ai_act_input": "minimal",
+  "needs": [
+   "F1",
+   "F3",
+   "F5"
+  ],
+  "from_initiatives": [
+   "I-02",
+   "I-20"
+  ],
+  "owner": "Head of fresh",
+  "kpi": "Fresh waste % of fresh sales"
+ },
+ {
+  "id": "UC-02",
+  "name": "Store-level automated ordering",
+  "bu": "stores",
+  "description": "Store demand forecast feeds replenishment orders.",
+  "value_low": 2500000,
+  "value_high": 4500000,
+  "fit": 5,
+  "data": 2,
+  "tech": 3,
+  "org": 2,
+  "effort_months": 9,
+  "differentiation": "differentiating",
+  "sourcing": "build",
+  "ai_act_input": "minimal",
+  "needs": [
+   "F1",
+   "F2",
+   "F3",
+   "F4"
+  ],
+  "from_initiatives": [
+   "I-31"
+  ],
+  "owner": "Director supply planning",
+  "kpi": "Availability and stock days"
+ },
+ {
+  "id": "UC-03",
+  "name": "Customer-service assistant (one tool)",
+  "bu": "office",
+  "description": "Triage and draft replies in one sanctioned tool for all teams.",
+  "value_low": 420000,
+  "value_high": 650000,
+  "fit": 3,
+  "data": 4,
+  "tech": 5,
+  "org": 4,
+  "effort_months": 3,
+  "differentiation": "parity",
+  "sourcing": "configure",
+  "ai_act_input": "limited",
+  "needs": [
+   "F2",
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-05",
+   "I-06"
+  ],
+  "owner": "Head of customer service",
+  "kpi": "Handling time and first-contact resolution"
+ },
+ {
+  "id": "UC-04",
+  "name": "Supplier invoice processing at scale",
+  "bu": "office",
+  "description": "Extraction and matching for all suppliers.",
+  "value_low": 380000,
+  "value_high": 520000,
+  "fit": 3,
+  "data": 4,
+  "tech": 4,
+  "org": 4,
+  "effort_months": 4,
+  "differentiation": "commodity",
+  "sourcing": "buy",
+  "ai_act_input": "minimal",
+  "needs": [
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-10",
+   "I-19"
+  ],
+  "owner": "CFO",
+  "kpi": "Straight-through rate and cost per invoice"
+ },
+ {
+  "id": "UC-05",
+  "name": "Personalised promotions in the app",
+  "bu": "ecom",
+  "description": "Offers per customer from loyalty data.",
+  "value_low": 1800000,
+  "value_high": 3200000,
+  "fit": 5,
+  "data": 3,
+  "tech": 3,
+  "org": 2,
+  "effort_months": 8,
+  "differentiation": "differentiating",
+  "sourcing": "build",
+  "ai_act_input": "limited",
+  "needs": [
+   "F1",
+   "F2",
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-25",
+   "I-28"
+  ],
+  "owner": "CMO",
+  "kpi": "Incremental margin per active customer"
+ },
+ {
+  "id": "UC-06",
+  "name": "Product content generation (web and labels)",
+  "bu": "ecom",
+  "description": "Descriptions and translations from master data, reviewed.",
+  "value_low": 300000,
+  "value_high": 450000,
+  "fit": 3,
+  "data": 4,
+  "tech": 5,
+  "org": 4,
+  "effort_months": 2,
+  "differentiation": "parity",
+  "sourcing": "configure",
+  "ai_act_input": "limited",
+  "needs": [
+   "F2",
+   "F3",
+   "F4"
+  ],
+  "from_initiatives": [
+   "I-12",
+   "I-37"
+  ],
+  "owner": "Head of e-commerce",
+  "kpi": "Time to publish new SKU"
+ },
+ {
+  "id": "UC-07",
+  "name": "DC labour planning",
+  "bu": "supply",
+  "description": "Forecast work per DC shift from inbound and orders.",
+  "value_low": 700000,
+  "value_high": 1100000,
+  "fit": 4,
+  "data": 3,
+  "tech": 3,
+  "org": 3,
+  "effort_months": 5,
+  "differentiation": "parity",
+  "sourcing": "configure",
+  "ai_act_input": "limited",
+  "needs": [
+   "F1",
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-14",
+   "I-22"
+  ],
+  "owner": "DC operations director",
+  "kpi": "Overtime hours and productivity"
+ },
+ {
+  "id": "UC-08",
+  "name": "Store staff scheduling",
+  "bu": "stores",
+  "description": "Schedules from forecast footfall; employee preferences.",
+  "value_low": 900000,
+  "value_high": 1500000,
+  "fit": 4,
+  "data": 2,
+  "tech": 3,
+  "org": 2,
+  "effort_months": 6,
+  "differentiation": "parity",
+  "sourcing": "buy",
+  "ai_act_input": "review",
+  "needs": [
+   "F1",
+   "F3",
+   "F5"
+  ],
+  "from_initiatives": [
+   "I-13"
+  ],
+  "owner": "HR director",
+  "kpi": "Schedule fit and overtime"
+ },
+ {
+  "id": "UC-09",
+  "name": "Office productivity assistant",
+  "bu": "office",
+  "description": "Sanctioned assistant for writing, summaries, meetings.",
+  "value_low": 250000,
+  "value_high": 600000,
+  "fit": 2,
+  "data": 5,
+  "tech": 5,
+  "org": 3,
+  "effort_months": 2,
+  "differentiation": "commodity",
+  "sourcing": "buy",
+  "ai_act_input": "minimal",
+  "needs": [
+   "F2",
+   "F3",
+   "F5"
+  ],
+  "from_initiatives": [
+   "I-03",
+   "I-04",
+   "I-24"
+  ],
+  "owner": "CIO",
+  "kpi": "Weekly active use and time saved (survey)"
+ },
+ {
+  "id": "UC-10",
+  "name": "Developer assistant for all IT",
+  "bu": "office",
+  "description": "Extend the sanctioned code assistant.",
+  "value_low": 200000,
+  "value_high": 320000,
+  "fit": 2,
+  "data": 5,
+  "tech": 5,
+  "org": 4,
+  "effort_months": 1,
+  "differentiation": "commodity",
+  "sourcing": "buy",
+  "ai_act_input": "minimal",
+  "needs": [
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-16",
+   "I-34"
+  ],
+  "owner": "CIO",
+  "kpi": "Lead time for changes"
+ },
+ {
+  "id": "UC-11",
+  "name": "Promotion planning optimiser",
+  "bu": "office",
+  "description": "Uplift and cannibalisation per promo, before planning.",
+  "value_low": 1100000,
+  "value_high": 2000000,
+  "fit": 4,
+  "data": 3,
+  "tech": 3,
+  "org": 2,
+  "effort_months": 6,
+  "differentiation": "differentiating",
+  "sourcing": "build",
+  "ai_act_input": "minimal",
+  "needs": [
+   "F1",
+   "F2"
+  ],
+  "from_initiatives": [
+   "I-11"
+  ],
+  "owner": "Commercial director",
+  "kpi": "Promo ROI"
+ },
+ {
+  "id": "UC-12",
+  "name": "Refrigeration energy optimisation (all stores)",
+  "bu": "stores",
+  "description": "Roll out the vendor module to 240 stores.",
+  "value_low": 520000,
+  "value_high": 700000,
+  "fit": 3,
+  "data": 4,
+  "tech": 5,
+  "org": 4,
+  "effort_months": 3,
+  "differentiation": "commodity",
+  "sourcing": "buy",
+  "ai_act_input": "minimal",
+  "needs": [
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-17"
+  ],
+  "owner": "Facilities director",
+  "kpi": "kWh per m2"
+ },
+ {
+  "id": "UC-13",
+  "name": "Fleet predictive maintenance (fix)",
+  "bu": "supply",
+  "description": "Make alerts actionable in the workshop process.",
+  "value_low": 180000,
+  "value_high": 300000,
+  "fit": 2,
+  "data": 4,
+  "tech": 4,
+  "org": 3,
+  "effort_months": 3,
+  "differentiation": "commodity",
+  "sourcing": "configure",
+  "ai_act_input": "minimal",
+  "needs": [
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-26"
+  ],
+  "owner": "Fleet manager",
+  "kpi": "Unplanned downtime"
+ },
+ {
+  "id": "UC-14",
+  "name": "IT service-desk automation",
+  "bu": "office",
+  "description": "Routing plus self-service answers.",
+  "value_low": 150000,
+  "value_high": 240000,
+  "fit": 2,
+  "data": 4,
+  "tech": 5,
+  "org": 4,
+  "effort_months": 2,
+  "differentiation": "commodity",
+  "sourcing": "configure",
+  "ai_act_input": "minimal",
+  "needs": [
+   "F2",
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-27"
+  ],
+  "owner": "CIO",
+  "kpi": "Tickets resolved without agent"
+ },
+ {
+  "id": "UC-15",
+  "name": "HR policy assistant (checked)",
+  "bu": "office",
+  "description": "Answers on HR policies with sources and review.",
+  "value_low": 90000,
+  "value_high": 160000,
+  "fit": 2,
+  "data": 4,
+  "tech": 5,
+  "org": 4,
+  "effort_months": 2,
+  "differentiation": "commodity",
+  "sourcing": "configure",
+  "ai_act_input": "limited",
+  "needs": [
+   "F2",
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-32"
+  ],
+  "owner": "HR director",
+  "kpi": "HR questions handled without a ticket"
+ },
+ {
+  "id": "UC-16",
+  "name": "Customer churn and win-back",
+  "bu": "ecom",
+  "description": "Use the model in campaigns, measured with holdouts.",
+  "value_low": 500000,
+  "value_high": 900000,
+  "fit": 3,
+  "data": 4,
+  "tech": 4,
+  "org": 3,
+  "effort_months": 3,
+  "differentiation": "parity",
+  "sourcing": "build",
+  "ai_act_input": "limited",
+  "needs": [
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-25"
+  ],
+  "owner": "CMO",
+  "kpi": "Win-back rate vs. holdout"
+ },
+ {
+  "id": "UC-17",
+  "name": "Product master-data enrichment",
+  "bu": "office",
+  "description": "Fill missing attributes with review.",
+  "value_low": 260000,
+  "value_high": 420000,
+  "fit": 3,
+  "data": 3,
+  "tech": 4,
+  "org": 4,
+  "effort_months": 3,
+  "differentiation": "parity",
+  "sourcing": "configure",
+  "ai_act_input": "minimal",
+  "needs": [
+   "F3",
+   "F4"
+  ],
+  "from_initiatives": [
+   "I-23"
+  ],
+  "owner": "Head of master data",
+  "kpi": "Attribute completeness"
+ },
+ {
+  "id": "UC-18",
+  "name": "Store operations copilot",
+  "bu": "stores",
+  "description": "Answers on procedures, planograms, recalls for store staff.",
+  "value_low": 600000,
+  "value_high": 1200000,
+  "fit": 4,
+  "data": 2,
+  "tech": 4,
+  "org": 3,
+  "effort_months": 6,
+  "differentiation": "differentiating",
+  "sourcing": "build",
+  "ai_act_input": "limited",
+  "needs": [
+   "F2",
+   "F3",
+   "F5"
+  ],
+  "from_initiatives": [],
+  "owner": "COO stores",
+  "kpi": "Time to resolve store questions"
+ },
+ {
+  "id": "UC-19",
+  "name": "Loss-prevention video analytics",
+  "bu": "stores",
+  "description": "Detect theft patterns from customer video.",
+  "value_low": 400000,
+  "value_high": 900000,
+  "fit": 3,
+  "data": 2,
+  "tech": 3,
+  "org": 1,
+  "effort_months": 8,
+  "differentiation": "parity",
+  "sourcing": "buy",
+  "ai_act_input": "review",
+  "needs": [
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-18"
+  ],
+  "owner": "Security director",
+  "kpi": "Shrink %"
+ },
+ {
+  "id": "UC-20",
+  "name": "Supplier contract analysis",
+  "bu": "office",
+  "description": "Clause extraction and risk flags, sanctioned tool.",
+  "value_low": 120000,
+  "value_high": 200000,
+  "fit": 2,
+  "data": 4,
+  "tech": 4,
+  "org": 3,
+  "effort_months": 3,
+  "differentiation": "commodity",
+  "sourcing": "buy",
+  "ai_act_input": "minimal",
+  "needs": [
+   "F2",
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-21"
+  ],
+  "owner": "General counsel",
+  "kpi": "Review time per contract"
+ },
+ {
+  "id": "UC-21",
+  "name": "Shrinkage anomaly detection",
+  "bu": "office",
+  "description": "Flag store-item anomalies for investigation.",
+  "value_low": 300000,
+  "value_high": 600000,
+  "fit": 3,
+  "data": 3,
+  "tech": 4,
+  "org": 3,
+  "effort_months": 4,
+  "differentiation": "parity",
+  "sourcing": "build",
+  "ai_act_input": "minimal",
+  "needs": [
+   "F1",
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-35"
+  ],
+  "owner": "CFO",
+  "kpi": "Recovered shrink"
+ },
+ {
+  "id": "UC-22",
+  "name": "CV screening in recruitment",
+  "bu": "office",
+  "description": "Rank applicants for store jobs.",
+  "value_low": 150000,
+  "value_high": 250000,
+  "fit": 2,
+  "data": 4,
+  "tech": 4,
+  "org": 2,
+  "effort_months": 2,
+  "differentiation": "commodity",
+  "sourcing": "buy",
+  "ai_act_input": "high",
+  "needs": [
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-09"
+  ],
+  "owner": "HR director",
+  "kpi": "Time to hire"
+ },
+ {
+  "id": "UC-23",
+  "name": "Delivery-slot pricing",
+  "bu": "ecom",
+  "description": "Price home-delivery slots by demand and route cost.",
+  "value_low": 700000,
+  "value_high": 1300000,
+  "fit": 4,
+  "data": 3,
+  "tech": 3,
+  "org": 3,
+  "effort_months": 5,
+  "differentiation": "differentiating",
+  "sourcing": "build",
+  "ai_act_input": "minimal",
+  "needs": [
+   "F1",
+   "F2"
+  ],
+  "from_initiatives": [
+   "I-07"
+  ],
+  "owner": "Head of e-commerce",
+  "kpi": "Delivery cost per order"
+ },
+ {
+  "id": "UC-24",
+  "name": "Voice ordering for B2B",
+  "bu": "ecom",
+  "description": "Phone ordering for horeca customers.",
+  "value_low": 60000,
+  "value_high": 140000,
+  "fit": 1,
+  "data": 3,
+  "tech": 3,
+  "org": 2,
+  "effort_months": 5,
+  "differentiation": "parity",
+  "sourcing": "build",
+  "ai_act_input": "limited",
+  "needs": [
+   "F2",
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-36"
+  ],
+  "owner": "B2B sales manager",
+  "kpi": "Orders by voice"
+ },
+ {
+  "id": "UC-25",
+  "name": "Supplier risk monitoring (fix)",
+  "bu": "office",
+  "description": "Route alerts to category managers with actions.",
+  "value_low": 50000,
+  "value_high": 120000,
+  "fit": 2,
+  "data": 4,
+  "tech": 4,
+  "org": 2,
+  "effort_months": 2,
+  "differentiation": "commodity",
+  "sourcing": "configure",
+  "ai_act_input": "minimal",
+  "needs": [
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-30"
+  ],
+  "owner": "CPO",
+  "kpi": "Risk events acted on"
+ },
+ {
+  "id": "UC-26",
+  "name": "Review insights for category managers",
+  "bu": "ecom",
+  "description": "Themes from reviews per category, monthly.",
+  "value_low": 80000,
+  "value_high": 150000,
+  "fit": 2,
+  "data": 4,
+  "tech": 5,
+  "org": 3,
+  "effort_months": 2,
+  "differentiation": "commodity",
+  "sourcing": "configure",
+  "ai_act_input": "minimal",
+  "needs": [
+   "F2",
+   "F3"
+  ],
+  "from_initiatives": [
+   "I-33"
+  ],
+  "owner": "Category director",
+  "kpi": "Actions from insights"
+ }
+]

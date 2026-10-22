@@ -1,0 +1,28 @@
+[
+ {
+  "name": "Volta Markt",
+  "position": "Discount, 310 stores",
+  "ai_moves": [
+   "Fully automated store ordering",
+   "Electronic shelf labels with dynamic pricing in 2027",
+   "Minimal personalisation"
+  ]
+ },
+ {
+  "name": "Grenvale",
+  "position": "Premium, strong e-commerce",
+  "ai_moves": [
+   "Personalised offers in app (launched 2025)",
+   "Recipe and meal-planning assistant",
+   "Same-day delivery pricing by slot"
+  ]
+ },
+ {
+  "name": "BuurtBox",
+  "position": "Quick commerce, city centres",
+  "ai_moves": [
+   "Dark-store picking automation",
+   "Demand sensing per neighbourhood"
+  ]
+ }
+]

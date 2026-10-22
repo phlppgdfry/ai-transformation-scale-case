@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ardena AI — executive deck</title>
+<meta name="description" content="Ten slides for Ardena's executive committee: where AI stands, the bets, the proof, the operating model and the decision asked.">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+  body { overflow: hidden; }
+  .deck { height: 100vh; height: 100dvh; display: flex; flex-direction: column; }
+  .slide { display: none; flex: 1; padding: clamp(20px, 5vw, 64px); max-width: 1100px; margin: 0 auto; width: 100%; overflow-y: auto; }
+  .slide.on { display: flex; flex-direction: column; justify-content: center; }
+  .slide h2 { font-size: clamp(26px, 4vw, 44px); margin: 0 0 18px; }
+  .slide p, .slide li { font-size: clamp(17px, 2vw, 22px); }
+  .slide .big { font-size: clamp(44px, 8vw, 88px); font-weight: 800; color: var(--brand); letter-spacing: -.03em; line-height: 1; }
+  .slide .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin-top: 12px; }
+  .bar-h { display: grid; grid-template-columns: 170px 1fr 70px; gap: 12px; align-items: center; margin: 10px 0; font-size: 16px; }
+  .bar-h div { height: 22px; border-radius: 6px; background: var(--brand-2); }
+  .bar-h.weak div { background: var(--muted); opacity: .5; }
+  .controls { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; border-top: 1px solid var(--line); background: var(--surface); font-size: 14px; }
+  .controls button { font: inherit; padding: 6px 14px; border-radius: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+  @media print { body { overflow: visible; } .slide { display: flex !important; page-break-after: always; height: 100vh; } .controls { display: none; } }
+</style>
+</head>
+<body>
+<div class="deck">
+  <section class="slide on">
+    <div class="eyebrow">Ardena Group · executive committee (fictional)</div>
+    <h2 style="font-size:clamp(34px,6vw,64px)">From AI everywhere and nowhere to a portfolio that pays</h2>
+    <p class="muted">Findings and decisions after 22 weeks.</p>
+  </section>
+  <section class="slide">
+    <h2>Where we are</h2>
+    <div class="two">
+      <div><p class="big"><!--n:inv.total-->37<!--/n--></p><p>AI initiatives found</p></div>
+      <div><p class="big"><!--n:inv.production-->3<!--/n--></p><p>in production</p></div>
+      <div><p class="big"><!--n:inv.measured-->11<!--/n--></p><p>with a measured result</p></div>
+    </div>
+    <p class="muted">Maturity <!--n:rd.overall-->2.3<!--/n--> of 5. Governance is the largest gap: there is no fast, legitimate way to get an AI tool, so people use their own.</p>
+  </section>
+  <section class="slide">
+    <h2>Every initiative now has a decision</h2>
+    <div class="bar-h"><span>Scale</span><div style="width:22%"></div><b><!--n:inv.scale-->8<!--/n--></b></div>
+    <div class="bar-h"><span>Fix</span><div style="width:38%"></div><b><!--n:inv.fix-->14<!--/n--></b></div>
+    <div class="bar-h weak"><span>Merge</span><div style="width:11%"></div><b><!--n:inv.merge-->4<!--/n--></b></div>
+    <div class="bar-h weak"><span>Pause (AI Act)</span><div style="width:8%"></div><b><!--n:inv.pause-->3<!--/n--></b></div>
+    <div class="bar-h weak"><span>Stop</span><div style="width:22%"></div><b><!--n:inv.stop-->8<!--/n--></b></div>
+    <p class="muted">Including a CV-screening feature a vendor had switched on by default: high-risk under the AI Act, paused the same week.</p>
+  </section>
+  <section class="slide">
+    <h2>Our bet: win on fresh</h2>
+    <p>Fresh is a third of sales and the reason customers choose Ardena. Competitors automate ordering and personalise offers; <b>nobody visibly invests in fresh</b>.</p>
+    <ul><li><b>Build</b> what differentiates: fresh markdowns, then store ordering.</li><li><b>Catch up</b> on personalisation, Ardena's way: offers that know what is fresh in your store.</li><li><b>Buy</b> the commodity cheaply: office, code and service assistants.</li></ul>
+  </section>
+  <section class="slide">
+    <h2>The first choice is robust</h2>
+    <p class="big"><!--n:pf.UC-01.top5-->93%<!--/n--></p>
+    <p>of 2,000 random re-weightings of your own criteria keep the fresh markdown advisor in the top five.</p>
+  </section>
+  <section class="slide">
+    <h2>It works in stores</h2>
+    <p class="big">−<!--n:pilot.relative-->18%<!--/n--></p>
+    <p>fresh waste in 12 pilot stores against their matched controls (<!--n:pilot.effect-->0.88 pp<!--/n-->), margin up, availability intact, <!--n:pilot.adoption-->79%<!--/n--> of suggestions accepted by staff.</p>
+    <p class="muted">Without control stores we would have reported <!--n:pilot.naive-->0.62 pp<!--/n-->: warm weeks raised waste everywhere.</p>
+  </section>
+  <section class="slide">
+    <h2>It is not ready for 240 stores yet</h2>
+    <p><b><!--n:prod.blockers-->5<!--/n--> blocking gates</b> are open: an automated data feed, monitoring, retraining, a support model and a year-1 budget. None of them is about the model.</p>
+    <p class="muted">Roll-out in three waves from month 7; each wave can stop the next.</p>
+  </section>
+  <section class="slide">
+    <h2>How we organise it</h2>
+    <div class="two">
+      <div class="card"><h3>AI council</h3><p>CIO chair, CFO, COO, HR, DPO, CISO. Decides intake, stops what does not deliver.</p></div>
+      <div class="card"><h3>Fast lane</h3><p>Low-risk requests answered in five days. Shadow tools replaced, not just forbidden.</p></div>
+      <div class="card"><h3>One orchestration layer</h3><p>Gateway, approved models, guardrails, cost per initiative.</p></div>
+    </div>
+  </section>
+  <section class="slide">
+    <h2>What it is worth</h2>
+    <p class="big"><!--n:val.portfolio_npv-->€12.5m<!--/n--></p>
+    <p>portfolio NPV including <!--n:val.foundations_one_off-->€1.0m<!--/n--> of central foundations, after a 30% haircut on workshop estimates. The pilot's measured effect implies <!--n:pilot.value-->€2.2m<!--/n--> a year from markdowns alone.</p>
+  </section>
+  <section class="slide">
+    <h2>The decisions we ask today</h2>
+    <ol><li>Fund five foundations centrally (governance, literacy, orchestration layer, data platform, master data).</li><li>Approve the portfolio and the 18-month roadmap on two tracks.</li><li>Start wave 1 of the markdown advisor when the five gates close.</li><li>Confirm the human-first principles: no AI decisions about people.</li></ol>
+  </section>
+
+  <div class="controls">
+    <button type="button" id="prev" aria-label="Previous slide">←</button>
+    <span id="count"></span>
+    <button type="button" id="next" aria-label="Next slide">→</button>
+  </div>
+</div>
+<script>
+(() => {
+  const slides = [...document.querySelectorAll(".slide")];
+  let i = Math.max(0, Math.min(slides.length - 1, (+new URLSearchParams(location.search).get("s") || 1) - 1));
+  const show = () => {
+    slides.forEach((s, k) => s.classList.toggle("on", k === i));
+    document.getElementById("count").textContent = `${i + 1} / ${slides.length}`;
+    history.replaceState(null, "", `?s=${i + 1}`);
+  };
+  const go = (d) => { i = Math.max(0, Math.min(slides.length - 1, i + d)); show(); };
+  document.getElementById("prev").onclick = () => go(-1);
+  document.getElementById("next").onclick = () => go(1);
+  document.addEventListener("keydown", (e) => {
+    if (["ArrowRight", "PageDown", " "].includes(e.key)) { e.preventDefault(); go(1); }
+    if (["ArrowLeft", "PageUp"].includes(e.key)) go(-1);
+  });
+  let x0 = null;
+  document.addEventListener("touchstart", (e) => (x0 = e.touches[0].clientX), { passive: true });
+  document.addEventListener("touchend", (e) => { if (x0 !== null) { const dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 50) go(dx < 0 ? 1 : -1); x0 = null; } });
+  show();
+})();
+</script>
+</body>
+</html>
